@@ -1,0 +1,47 @@
+:root {
+  --cor-fundo: #2C2F33; /* Cinza escuro, um tom sóbrio */
+  --cor-principal: #23272A; /* Cinza mais escuro, um pouco mais frio */
+  --cor-secundaria: #474B51; /* Cinza médio, neutro */
+  --cor-destaque: #A49F8C; /* Um tom de bege militar, suave */
+  --cor-texto: #E0E6ED; /* Quase branco, mas com um tom mais suave */
+}
+ 
+body {
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+ 
+.caixa-principal {
+  background-color: var(--cor-principal);
+  width: 90%;
+  max-width: 600px; /* Limite máximo de largura para melhor layout */
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px; /* Suavização das bordas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para dar profundidade */
+}
+ 
+h1 {
+  color: var(--cor-destaque);
+  margin-bottom: 20px; /* Espaço extra abaixo do título */
+}
+ 
+button {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-destaque);
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 10px 0; /* Espaço entre os botões */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Efeito de transição suave */
+}
+
+button:hover {
+  background-color: var(--cor-destaque);
+  color: var(--cor-principal);
+}
