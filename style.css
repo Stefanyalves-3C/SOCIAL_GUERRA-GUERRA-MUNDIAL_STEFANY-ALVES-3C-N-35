@@ -1,11 +1,11 @@
-:root{
-  --cor-fundo: #01080E ;
-  --cor-principal: #0B0D20 ;
-  --cor-secundaria: #212333; 
-  --cor-destaque: #2BDEFD;
-  --cor-texto: #D7F9FF;
-
+:root {
+  --cor-fundo: #3C3C3C; /* Cinza escuro, remete ao tom das trincheiras e dos uniformes */
+  --cor-principal: #6C6C6C; /* Cinza médio, mais neutro e sóbrio */
+  --cor-secundaria: #8B8B8B; /* Cinza claro, bom para contrastar com o fundo escuro */
+  --cor-destaque: #C1C1C1; /* Cinza muito claro, para detalhes e destaques */
+  --cor-texto: #F5F5F5; /* Branco sujo, para facilitar a leitura sobre fundos escuros */
 }
+
 
 body {
   background-color: var(--cor-fundo);
